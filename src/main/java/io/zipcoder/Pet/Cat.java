@@ -8,6 +8,7 @@ public class Cat extends Pet {
 
     public Cat(String name) {
         super(name);
+        super.setType("Cat");
     }
 
     @Override

@@ -8,6 +8,7 @@ public class Chupacabra extends Pet {
 
     public Chupacabra(String name) {
         super(name);
+        super.setType("Chupacabra");
     }
 
     @Override
