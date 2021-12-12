@@ -14,4 +14,9 @@ public class Cat extends Pet {
     public String speak() {
         return "meow";
     }
+
+    @Override
+    public int compareTo(Pet o) {
+        return 0;
+    }
 }

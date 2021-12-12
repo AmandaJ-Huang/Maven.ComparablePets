@@ -14,4 +14,9 @@ public class Dog extends Pet {
     public String speak() {
         return "woof";
     }
+
+    @Override
+    public int compareTo(Pet o) {
+        return 0;
+    }
 }

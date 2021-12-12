@@ -14,4 +14,9 @@ public class Chupacabra extends Pet {
     public String speak() {
         return "fear me";
     }
+
+    @Override
+    public int compareTo(Pet o) {
+        return 0;
+    }
 }
