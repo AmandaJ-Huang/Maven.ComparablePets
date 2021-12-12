@@ -1,4 +1,4 @@
-package Pet;
+package io.zipcoder.Pet;
 
 public class Cat extends Pet {
 
